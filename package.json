@@ -1,0 +1,19 @@
+{
+  "name": "realtime-chat",
+  "version": "1.0.0",
+  "main": "src/app.ts",
+  "repository": "git@github.com:tabaesso/realtime-chat.git",
+  "author": "tabaesso",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./bin/app.js",
+    "dev": "ts-node ./src/app.ts"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^16.7.8",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.2"
+  }
+}
